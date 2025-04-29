@@ -1,0 +1,10 @@
+[1mdiff --git a/Trigger.txt b/Trigger.txt[m
+[1mindex 9068b6b..90fa7cc 100644[m
+[1m--- a/Trigger.txt[m
+[1m+++ b/Trigger.txt[m
+[36m@@ -1,3 +1,3 @@[m
+ begin[m
+[31m-INSERT INTO logtable VALUES(NEW.ID,NEW.ParkingNumber, NEW.VehicleCategory, NEW.VehicleCompanyname, NEW.RegistrationNumber, NEW.OwnerName, NEW.OwnerContactNumber, NEW.InTime, NEW.OutTime, NEW.ParkingCharge, NEW.Remark, NEW.Status);[m
+[32m+[m[32mINSERT INTO logtable VALUES(NEW.ID,NEW.ParkingNumber, NEW.VehicleCategory, NEW.VehicleCompanyname, NEW.RegistrationNumber, NEW.OwnerName, NEW.OwnerContactNumber, NEW.InTime, NEW.OutTime, NEW.ParkingCharge, NEW.Remarks);[m[41m[m
+ end[m
+\ No newline at end of file[m
